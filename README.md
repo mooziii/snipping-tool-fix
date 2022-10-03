@@ -26,7 +26,7 @@ Yes, that's all. I was just too lazy to open my task manager, search for the pro
 
 * Java 16 or higher
 
-Download the .jar file [here](#)
+Download the .jar file [here](https://github.com/mooziii/snipping-tool-fix/releases/download/1.0.0/snipping-tool-fix-1.0.0-all.jar)
 
 If you want to automatically start the app on system-startup, press **Win + R**, type `shell:startup` and press **Enter**. Place the jar file in this folder.
 Now the app will start on your next system boot. In case you want to start the app now, just execute the .jar file.
