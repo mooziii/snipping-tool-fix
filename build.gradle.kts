@@ -16,11 +16,11 @@ dependencies {
 
 tasks {
     compileJava {
-        options.release.set(8)
+        options.release.set(16)
         options.encoding = "UTF-8"
     }
     compileKotlin {
-        kotlinOptions.jvmTarget = "1.8"
+        kotlinOptions.jvmTarget = "16"
     }
     shadowJar {
         manifest {

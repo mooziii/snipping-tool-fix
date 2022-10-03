@@ -30,11 +30,10 @@ fun main() {
         ProcessHandle.allProcesses().toList().firstOrNull { (it.info().command().getOrNull() ?: "null").contains("ScreenClippingHost.exe") }?.destroyForcibly()
     })
     tray.menu.add(MenuItem("Info") {
-        Desktop.getDesktop().browse(URI("https://polylymer.de"))
+        Desktop.getDesktop().browse(URI("https://github.com/mooziii/snipping-tool-fix/blob/master/README.md"))
     })
     tray.menu.add(MenuItem("Quit") {
         tray.shutdown()
         exitProcess(0)
     })
-    //Timer().schedule(object : TimerTask() { override fun run() {} }, 0, 60*60*1000) // Prevents the program from closing
 }

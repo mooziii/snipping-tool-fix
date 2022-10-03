@@ -22,4 +22,11 @@ Yes, that's all. I was just too lazy to open my task manager, search for the pro
 
 ## Installation 
 
-Download the file 
+##### Requirements
+
+* Java 16 or higher
+
+Download the .jar file [here](#)
+
+If you want to automatically start the app on system-startup, press **Win + R**, type `shell:startup` and press **Enter**. Place the jar file in this folder.
+Now the app will start on your next system boot. In case you want to start the app now, just execute the .jar file.
