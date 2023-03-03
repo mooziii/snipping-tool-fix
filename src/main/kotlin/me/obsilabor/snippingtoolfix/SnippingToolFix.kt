@@ -5,13 +5,10 @@ import dorkbox.systemTray.SystemTray
 import java.awt.Desktop
 import java.net.URI
 import java.net.URL
-import java.util.*
 import javax.imageio.ImageIO
 import kotlin.jvm.optionals.getOrNull
 import kotlin.system.exitProcess
 
-
-@OptIn(ExperimentalStdlibApi::class)
 fun main() {
     if (!Desktop.isDesktopSupported()) {
         println("Headless environments aren't supported")
