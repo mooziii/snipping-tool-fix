@@ -1,10 +1,10 @@
 plugins {
-    kotlin("jvm") version "1.7.20"
-    id("com.github.johnrengelman.shadow") version "7.1.2"
+    kotlin("jvm") version "1.8.10"
+    id("com.github.johnrengelman.shadow") version "8.1.0"
 }
 
 group = "me.obsilabor"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -16,11 +16,11 @@ dependencies {
 
 tasks {
     compileJava {
-        options.release.set(16)
+        options.release.set(17)
         options.encoding = "UTF-8"
     }
     compileKotlin {
-        kotlinOptions.jvmTarget = "16"
+        kotlinOptions.jvmTarget = "17"
     }
     shadowJar {
         manifest {
