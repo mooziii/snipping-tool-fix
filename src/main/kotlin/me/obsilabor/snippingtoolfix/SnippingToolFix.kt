@@ -7,6 +7,7 @@ import java.net.URI
 import java.net.URL
 import javax.imageio.ImageIO
 import kotlin.jvm.optionals.getOrNull
+import kotlin.streams.toList
 import kotlin.system.exitProcess
 
 fun main() {
