@@ -1,3 +1,5 @@
+# Archived as the issue has been fixed.
+
 <p align="center">
     <img src="https://i.imgur.com/KxV3nxJ.png" width="128" height="128" style="align-content: center">
 </p>
